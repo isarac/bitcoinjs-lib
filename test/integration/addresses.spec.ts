@@ -34,7 +34,7 @@ describe('bitcoinjs-lib (addresses)', () => {
     );
     const { address } = bitcoin.payments.p2pkh({ pubkey: keyPair.publicKey });
 
-    assert.strictEqual(address, '1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH');
+    assert.strictEqual(address, '1HZwkjkeaoZfTSaJxDw6aKkxp45agDiEzN');
   });
 
   it('can generate a P2SH, pay-to-multisig (2-of-3) address', () => {
